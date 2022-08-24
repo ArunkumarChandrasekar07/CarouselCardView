@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B75EEAB28B4C704003A151D /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75EEAA28B4C704003A151D /* Tab.swift */; };
+		0B75EEAD28B4CE40003A151D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B75EEAC28B4CE40003A151D /* CardView.swift */; };
 		0B76F05528B495C100B12A7F /* CarouselCardViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76F05428B495C100B12A7F /* CarouselCardViewApp.swift */; };
 		0B76F05728B495C100B12A7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B76F05628B495C100B12A7F /* ContentView.swift */; };
 		0B76F05928B495C200B12A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B76F05828B495C200B12A7F /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B75EEAA28B4C704003A151D /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		0B75EEAC28B4CE40003A151D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		0B76F05128B495C100B12A7F /* CarouselCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B76F05428B495C100B12A7F /* CarouselCardViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCardViewApp.swift; sourceTree = "<group>"; };
 		0B76F05628B495C100B12A7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				0B76F05428B495C100B12A7F /* CarouselCardViewApp.swift */,
 				0B76F05628B495C100B12A7F /* ContentView.swift */,
+				0B75EEAC28B4CE40003A151D /* CardView.swift */,
+				0B75EEAA28B4C704003A151D /* Tab.swift */,
 				0B76F05828B495C200B12A7F /* Assets.xcassets */,
 				0B76F05A28B495C200B12A7F /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B75EEAB28B4C704003A151D /* Tab.swift in Sources */,
 				0B76F05728B495C100B12A7F /* ContentView.swift in Sources */,
+				0B75EEAD28B4CE40003A151D /* CardView.swift in Sources */,
 				0B76F05528B495C100B12A7F /* CarouselCardViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +433,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +463,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
