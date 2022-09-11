@@ -139,8 +139,8 @@ struct CardView<Content: View, Item, ID>: View where Item: RandomAccessCollectio
     }
 }
 
-struct CardView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct CardView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
